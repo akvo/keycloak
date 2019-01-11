@@ -26,7 +26,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>keycloak-adapter-core</artifactId>
+    <artifactId>keycloak-adapter-core-akvo</artifactId>
     <name>Keycloak Adapter Core</name>
     <description/>
 
@@ -143,3 +143,4 @@
     </build>
 
 </project>
+

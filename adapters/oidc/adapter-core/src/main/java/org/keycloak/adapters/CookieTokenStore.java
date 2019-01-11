@@ -71,7 +71,7 @@ public class CookieTokenStore {
 
         try {
             // Skip check if token is active now. It's supposed to be done later by the caller
-            AccessToken accessToken = AdapterRSATokenVerifier.verifyToken(accessTokenString, deployment, false, true);
+            AccessToken accessToken = AdapterRSATokenVerifier.verifyToken(accessTokenString, deployment, false, false);
             IDToken idToken;
             if (idTokenString != null && idTokenString.length() > 0) {
                 try {

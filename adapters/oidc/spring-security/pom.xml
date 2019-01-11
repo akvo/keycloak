@@ -26,7 +26,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>keycloak-spring-security-adapter</artifactId>
+    <artifactId>keycloak-spring-security-adapter-akvo</artifactId>
     <name>Keycloak Spring Security Integration</name>
     <description/>
 
@@ -48,7 +48,8 @@
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
-            <artifactId>keycloak-adapter-core</artifactId>
+            <artifactId>keycloak-adapter-core-akvo</artifactId>
+	    <version>3.4.3.Final</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.spec.javax.servlet</groupId>
@@ -145,3 +146,4 @@
     </build>
 
 </project>
+
